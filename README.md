@@ -23,3 +23,6 @@ Members and Much More!**
 **Beans**
  * Usage: ```.beans```
  * This one is for **you** to figure out :-)
+
+***Joining your Discord Server:***
+please follow [this link](https://discordapp.com/api/oauth2/authorize?client_id=652322579469697026&permissions=0&scope=bot) to add Master Boyo to your server
