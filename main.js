@@ -82,4 +82,4 @@ exports.reset = function() {
     client.login('NjUxNDYxODI3MjUwNjE4Mzg3.XeaPRg.aGrXk1_LsPG0oY9FR8ll7g8rUhU');
 };
 
-client.login('NjUxNDYxODI3MjUwNjE4Mzg3.XeaPRg.aGrXk1_LsPG0oY9FR8ll7g8rUhU');
+client.login(bot.token);
