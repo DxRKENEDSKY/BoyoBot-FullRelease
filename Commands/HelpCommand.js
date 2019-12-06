@@ -9,7 +9,7 @@ var textFile = fs.readFileSync('./about', 'utf8');
 
 exports.helpMessage = function (args, msg) {
 
-    msg.channel.send("Please refer to 'https://github.com/DxRKENEDSKY/BoyoBot-FullRelease' for a full list of commands. " );
+    msg.channel.send("Please refer to ```https://github.com/DxRKENEDSKY/BoyoBot-FullRelease``` for a full list of commands. " );
 
 };
 
