@@ -92,10 +92,7 @@ exports.roll = function (args, msg) {
 
 
 
-    embed.setTitle("Dice Roller");
-    embed.setColor('#6e1e9c');
-    embed.setThumbnail('https://i.imgur.com/OJ8f02w.jpg');
-    embed.addField("Numbers Rolled:", final.substring(1));
+    
 
 
 
@@ -104,6 +101,15 @@ exports.roll = function (args, msg) {
         if (numDice > 1) {
             embed.addField("Total Rolled:", total);
         }
+    }
+    
+    if(args.includes('mod')) {
+        var modifier = parseInt(args[args.indexOf('mod') + 1]);
+        console.log("The Modifier is " + modifier);
+        
+        var intFinal = parseInt(final);
+        console.log("Variable intFinal is " + intFinal);
+        
     }
 
     var buildString = function () {
@@ -153,6 +159,11 @@ exports.roll = function (args, msg) {
             embed.setImage(nat1Image);
         }
     }
+    
+    embed.setTitle("Dice Roller");
+    embed.setColor('#6e1e9c');
+    embed.setThumbnail('https://i.imgur.com/OJ8f02w.jpg');
+    embed.addField("Numbers Rolled:", final.substring(1));
 
     console.log(numbers);
     msg.channel.send(embed);
@@ -218,6 +229,7 @@ exports.gifChange = function (args, msg) {
         }
 
         msg.channel.send(ImageView);
+        
         
         main.reset();
 
