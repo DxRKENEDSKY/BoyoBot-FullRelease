@@ -48,6 +48,7 @@ function processCommand(msg) {
             break;
         case 'giftoggle' :
             Roll.sendGif(args, msg);
+            msg.delete(100);
             break;
         case 'testnat20' :
             Roll.testNat20(args, msg);
@@ -79,7 +80,7 @@ function processCommand(msg) {
 
 exports.reset = function() {
     client.destroy();
-    client.login(process.env.BOT_TOKEN);
+    client.login('NjUxNDYxODI3MjUwNjE4Mzg3.XfFDaw.MKxhMH-j_rOAfeD65z_zFol0mUg');
 };
 
-client.login(process.env.BOT_TOKEN);
+client.login('NjUxNDYxODI3MjUwNjE4Mzg3.XfFDaw.MKxhMH-j_rOAfeD65z_zFol0mUg');
