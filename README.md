@@ -3,6 +3,9 @@
 Master Boyo is the all-in-one Dungeons & Dragons Discord bot. He is capable of **Rolling Dice, Sending Memes, Hitting on your Discord 
 Members and Much More!**
 
+***Joining your Discord Server:*** 
+Please follow [this link](https://discordapp.com/api/oauth2/authorize?client_id=652322579469697026&permissions=0&scope=bot) to add Master Boyo to your server
+
 ***Commands List:***
 
 **Roll**
@@ -24,5 +27,4 @@ Members and Much More!**
  * Usage: ```.beans```
  * This one is for **you** to figure out :-)
 
-***Joining your Discord Server:*** 
-Please follow [this link](https://discordapp.com/api/oauth2/authorize?client_id=652322579469697026&permissions=0&scope=bot) to add Master Boyo to your server
+
