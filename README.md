@@ -29,7 +29,7 @@ Please follow [this link](https://discordapp.com/api/oauth2/authorize?client_id=
  
 **DeathRoll/DR**
 * Usage: ```.dr start [bet amount]```
-*        ```.dr roll```
+* Usage: ```.dr roll```
 * A form of gambling. Dice rolls down from the agreed bet amount until the number rolled is 1
 
 
