@@ -26,5 +26,10 @@ Please follow [this link](https://discordapp.com/api/oauth2/authorize?client_id=
 **Beans**
  * Usage: ```.beans```
  * This one is for **you** to figure out :-)
+ 
+**DeathRoll/DR**
+* Usage: ```.dr start [bet amount]```
+*        ```.dr roll```
+* A form of gambling. Dice rolls down from the agreed bet amount until the number rolled is 1
 
 
